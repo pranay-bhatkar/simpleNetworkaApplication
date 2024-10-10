@@ -39,7 +39,7 @@ public class ChatClient extends JFrame {
             out = new PrintWriter(socket.getOutputStream(), true);
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
-            // Handle server messages
+            // Handling the server messages
             String message;
             while ((message = in.readLine()) != null) {
                 chatArea.append("Server: " + message + "\n");
