@@ -14,7 +14,7 @@ public class ChatClient extends JFrame {
     private BufferedReader in;
 
     public ChatClient() {
-        // GUI setup
+        // GUI setup for the application
         chatArea = new JTextArea();
         chatArea.setEditable(false);
         inputField = new JTextField();
